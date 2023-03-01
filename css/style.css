@@ -2,7 +2,11 @@
   --mar-nav: rgb(248, 249, 250);
   --mar-sidebar: rgb(17, 39, 62);
   --mar-navblue: rgb(27, 114, 232);
+  --mar-bell: rgb(233, 125, 36);
+  --mar-white: white;
+  --mar-search: rgb(236, 236, 236);
 }
+
 .bg_mar_nav {
   background-color: var(--mar-nav);
 }
@@ -12,13 +16,42 @@
 .bg_mar_navblue {
   background-color: var(--mar-navblue);
 }
+.bg_mar_bell {
+  background-color: var(--mar-bell);
+}
+.bg_mar_white {
+  background-color: var(--mar-white);
+}
+.bg_mar_search {
+  background-color: var(--mar-grey);
+}
 /*--------------------------------- color -----------------------------*/
-.header {
-  background-color: aqua;
-  height: 60px;
+.over {
+  overflow: hidden;
+}
+.form-control {
+  background-color: var(--mar-search);
+  border: none;
+}
+.container {
+  width: 20%;
+}
+.fa-bell {
+  color: var(--mar-bell);
+}
+/*---------------------------------header -----------------------------*/
+ul {
+  list-style: none;
+}
+.icon_bar {
+  background-image: url();
+}
+.navbar_bottom {
+  margin-top: 42rem;
 }
 .navbar_vertical {
-  background-color: white;
+  background-color: var(--mar-sidebar);
+  background-image: url(/img/sidebar-bg.png);
 }
 /*------------------------------navbar_vertical --------------------------*/
 .big_vertical_box {
