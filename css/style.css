@@ -3,7 +3,6 @@
   --mar-sidebar: rgb(17, 39, 62);
   --mar-navblue: rgb(27, 114, 232);
 }
-
 .bg_mar_nav {
   background-color: var(--mar-nav);
 }
@@ -13,60 +12,61 @@
 .bg_mar_navblue {
   background-color: var(--mar-navblue);
 }
-
 /*--------------------------------- color -----------------------------*/
-
 .header {
   background-color: aqua;
-  height: 50px;
+  height: 60px;
 }
-
-.b {
-  background-color: rgb(255, 0, 0);
-}
-
-.c {
-  background-color: rgb(21, 7, 7);
-}
-
-.d {
-  background-color: rgb(181, 211, 10);
-  height: 10%;
-}
-
-.e {
-  background-color: rgb(214, 215, 205);
-  height: 90%;
-}
-
-.f {
-  background-color: rgb(60, 183, 165);
-}
-
-.g {
+.navbar_vertical {
   background-color: white;
 }
+/*------------------------------navbar_vertical --------------------------*/
+.big_vertical_box {
+  border: 3px solid royalblue;
+}
+/*----------big_vertical_box------INVISIBILE  come base---------------------*/
+.horizonatal_bar {
+  background-color: rgb(10, 211, 20);
+  height: 10%;
+}
+/*-----------horizonatal_bar-------------------*/
+.bigbox_contenitor {
+  border: 6px solid rgb(222, 225, 65);
+  height: 90%;
+}
+/*------------bigbox_contenitor---INVISIBILE  come base generale------------------*/
+.vertical_box_contenitor_left {
+  border: 6px solid rgb(8, 46, 214);
+}
+/*------vertical_box_contenitor---INVISIBILE  come base---rettangolare verticale-------*/
+/*.g {
+  background-color: white;
+  border: 3px solid rgb(214, 8, 197);
+}*/
 
-.h {
-  background-color: rgb(100, 98, 98);
+.top_box_left {
+  background-color: rgba(204, 118, 118, 0.349);
   height: 60%;
 }
 
-.i {
-  background-color: rgb(154, 155, 151);
+.bottom_box_left {
+  background-color: rgb(220, 240, 163);
   height: 40%;
 }
 .nome {
   border: 1px solid red;
 }
+/*---------end zone LEFT SIDE top and bottom----------------*/
 
-.l {
-  background-color: rgb(244, 112, 112);
-  height: 20%;
-  overflow-y: scroll;
+.vertical_box_contenitor_right {
+  border: 6px solid rgb(8, 156, 214);
 }
-
-.m {
-  background-color: rgb(220, 82, 12);
+.top_box_right {
+  background-color: rgb(148, 106, 106);
+  height: 20%;
+}
+.bottom_box_right {
+  background-color: rgb(180, 135, 112);
   height: 80%;
 }
+/*---------end zone RIGHT SIDE top and bottom----------------*/
