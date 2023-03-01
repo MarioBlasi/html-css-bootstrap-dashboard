@@ -37,11 +37,20 @@ header {
   height: 80px;
 }
 
-.prossime_piu_faq {
+.prossime {
   border: 3px solid white;
   background-color: rgb(231, 177, 188);
+  margin: 0rem;
 }
-.todo_piu_grafico {
+.todo {
   border: 3px solid white;
   background-color: rgb(160, 239, 241);
+}
+.faq {
+  border: 3px solid white;
+  background-color: rgb(124, 185, 116);
+}
+.grafico {
+  border: 3px solid white;
+  background-color: rgb(145, 226, 199);
 }
