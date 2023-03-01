@@ -15,9 +15,14 @@
 }
 
 /*--------------------------------- color -----------------------------*/
-.navbar-brand {
-  border: 1px solid red;
+#app_header {
+  border: 5px solid red;
+  height: 60px;
 }
-.sidebar {
-  border: 1px solid red;
+#app_nav {
+  border: 5px solid rgb(50, 7, 202);
+  height: 80px;
+}
+#app_sidebar {
+  border: 5px solid rgb(5, 156, 5);
 }

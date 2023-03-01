@@ -30,36 +30,27 @@
 
   <body>
     <main class="cornice">
-      <nav class="navbar bg_mar_nav">
-        <div class="container-fluid ">
-          <a class="navbar-brand">
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            
-          </form>
-        </div>
-        <div class="navbar_small bg_mar_navblue"></div>
-      </nav>
-      <!---------END------navBar--------------- -->
-      <div class="sidebar">
+      <header id="app_header"></header>
+
+      <nav id="app_nav"></nav>
+
+      <sidebar id="app_sidebar">
         <div class="container-fluid">
           <div class="row">
-              <div class="col-3 mh-100 bg_mar_sidebar position-fixed" id="sticky-sidebar">
-                  ...
-              </div>
-              <div class="sidebar_top"></div>
-        
-              <div class="sidebar_bottom"></div   
+            <div class="col-3 px-1 position-fixed" id="sticky-sidebar">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                esse quis magni deserunt sapiente delectus eos, praesentium
+                cupiditate voluptatem possimus laboriosam, omnis doloremque ipsa
+                cum obcaecati, est facere consectetur nobis?
+              </p>
+            </div>
+            <div class="col offset-3" id="main"></div>
           </div>
-      </div>
-        >
-      </div>
+        </div>
+      </sidebar>
     </main>
+
     <!--Script Bootstrap bundle-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
