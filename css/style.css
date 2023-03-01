@@ -15,14 +15,20 @@
 }
 
 /*--------------------------------- color -----------------------------*/
-#app_header {
-  border: 5px solid red;
-  height: 60px;
-}
-#app_nav {
-  border: 5px solid rgb(50, 7, 202);
+
+header {
+  background-color: aquamarine;
+  width: 100%;
   height: 80px;
 }
-#app_sidebar {
-  border: 5px solid rgb(5, 156, 5);
+.section_container {
+  height: 100%;
+  background-color: rgb(223, 189, 221);
+}
+.verticalsmall {
+  background-color: rgb(209, 185, 49);
+  height: 100%;
+}
+.verticalbig {
+  background-color: rgb(55, 134, 199);
 }
