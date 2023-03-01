@@ -44,7 +44,12 @@ ul {
   list-style: none;
 }
 .icon_bar {
-  background-image: url();
+}
+li:hover {
+  background-color: rgba(255, 255, 255, 0.541);
+}
+span {
+  font-size: small;
 }
 .navbar_bottom {
   margin-top: 42rem;
