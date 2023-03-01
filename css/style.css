@@ -1,0 +1,18 @@
+:root {
+  --mar-nav: rgb(248, 249, 250);
+  --mar-sidebar: rgb(17, 39, 62);
+  --mar-navblue: rgb(27, 114, 232);
+}
+
+.bg_mar_nav {
+  background-color: var(--mar-nav);
+}
+.bg_mar_sidebar {
+  background-color: var(--mar-sidebar);
+}
+.bg_mar_navblue {
+  background-color: var(--mar-navblue);
+}
+.icon_sound {
+  border: 1px solid red;
+}
