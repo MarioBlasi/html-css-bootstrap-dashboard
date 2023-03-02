@@ -1,7 +1,7 @@
 :root {
   --mar-nav: rgb(248, 249, 250);
   --mar-sidebar: rgb(17, 39, 62);
-  --mar-navblue: rgb(27, 114, 232);
+  --mar-banner: rgb(27, 114, 232);
   --mar-bell: rgb(233, 125, 36);
   --mar-white: white;
   --mar-search: rgb(236, 236, 236);
@@ -14,8 +14,8 @@
 .bg_mar_sidebar {
   background-color: var(--mar-sidebar);
 }
-.bg_mar_navblue {
-  background-color: var(--mar-navblue);
+.bg_mar_banner {
+  background-color: var(--mar-banner);
 }
 .bg_mar_bell {
   background-color: var(--mar-bell);
@@ -38,6 +38,16 @@
   border: 1px dashed;
 }
 /*--------debug-----*/
+main {
+  width: calc(100%-5rem);
+  overflow-y: auto;
+}
+
+.wrapper {
+  display: flex;
+  height: calc(100vh -70px);
+}
+/*-------main--------------*/
 .fa-bell {
   color: var(--mar-bell);
 }
@@ -60,12 +70,6 @@ li:hover {
 .sidebar_bottom {
   margin-top: 40rem;
 }
-/*-------sidebar----------------*/
-
-.wrapper {
-  display: flex;
-  height: calc(100vh -70px);
-}
 .sidebar {
   width: 8rem;
 }
@@ -73,16 +77,21 @@ li:hover {
 .Admin {
   margin-right: -2rem;
 }
-main {
-  width: calc(100%-5rem);
-  overflow-y: auto;
-}
-.banner {
-  background-color: aqua;
+/*-------sidebar----------------*/
+.text_left > span {
+  font-size: 40px;
 }
 
+.btn {
+  border-radius: 2rem;
+  background-color: rgba(34, 34, 95, 0.356);
+  height: 1.5rem;
+  line-height: 0.5rem;
+}
+/*-------banner---------------*/
 @media screen and (min-width: 992px) {
   .sidebar {
     width: 16rem;
   }
 }
+/*-------@media screen and (min-width: 992px)------------*/
