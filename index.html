@@ -28,98 +28,89 @@
     <!--my Stile-->
   </head>
 
-  <body>
-    <div class="over vh-100 vw-100">
-      <header class="header">
-        <nav class="navbar navbar-expand-lg bg-light ">
-          <div class="container-fluid ">
-            <div class="collapse navbar-collapse " id="navbarToggler">
-              <img class="d-block d-sm-none w-25" src="./img/mobile-logo.png" alt="">
-              <img class="d-block d-sm-block" src="./img/logo.svg" alt="">
-              <a class="navbar-brand bg_mar_white" href="#"></a>
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <form class="search_bar d-flex vw-100" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <div class="container ">
-                  <div class="row">
-                    <div class="icon_header left-align-baseline h-25 py-2 bg_mar_white ">
-                      <i class="fa-sharp fa-solid fa-bars fa-2 px-2"></i>
-                      <i class="fa-solid fa-circle-question fa-2 px-2"></i>
-                      <i class="fa-solid fa-ellipsis-vertical fa-2 px-2"></i>
-                      <i class="fa-solid fa-bell px-2 color"></i>
-                    <div>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </nav>
-      </header>
-      <!-- HEADER -->
-
-      <main class="row h-100">
-        <div class="navbar_vertical col-1 ">
-          <div class="navbar_top text-light color pt-1">
-            <div class="icon_bar py-3">
-                <ul>
-                  <li><i class="fa-solid fa-house py-2 "></i><b>&nbsp Home</b></li>
-                   
-                  <li><i class="fa-solid fa-desktop py-2"></i><b>&nbsp Stats</b></li>
-                  <li><i class="fa-solid fa-signal py-2"></i><b>&nbsp Signals</b></li>
-                </ul>
-            </div> 
-            
-              
-          </div>
-          <!--------------------navbar_top------>
-          <div class="navbar_bottom text-light color ">
-            <div class="Admin">
-              <ul>
-                <li><i class="fa-sharp fa-solid fa-gear"></i><b>&nbsp Admin</b></li>
-              </ul>
-            </div>
-          </div>
-          <!--------------------navbar_bottom------>
+  <body class="debug">
+    <header id="app_header">
+      <nav class="navbar bg_mar_nav">
+        <div class="container-fluid">
+          <img class="d-block d-sm-none w-25" src="./img/mobile-logo.png" alt="">
+          <img class="d-block d-sm-block" src="./img/logo.svg" alt="">
+            <a class="navbar-brand bg_mar_white" href="#"></a>
+            <form class="d-flex w-75" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <div class="icon_header left-align-baseline h-25 py-2 bg_mar_white ">
+              <i class="fa-sharp fa-solid fa-bars fa-2 px-2"></i>
+              <i class="fa-solid fa-circle-question fa-2 px-2"></i>
+              <i class="fa-solid fa-ellipsis-vertical fa-2 px-2"></i>
+              <i class="fa-solid fa-bell px-2 "></i>
+            <div>
         </div>
-        <!--------------------------------------navbar_vertical------->
-        <div class="big_vertical_box col-11">
-          <!-------------big_vertical_box------INVISIBILE  come base-->
-          <div class="row h-100">
-            <div class="horizonatal_bar">d</div>
-            <!---------------------------------horizonatal_bar------->
-            <div class="bigbox_contenitor">
-              <!--------------------------------box_contenitor------->
-              <div class="row h-100">
-                <div class="vertical_box_contenitor_left col-8">
-                  <!---------------vertical_box_contenitor col-8------->
-                  <div class="row h-100">
-                    <div class="top_box_left">top_box_left</div>
-                    <!---------------top_box_left------>
-                    <div class="bottom_box_left justify-content-center">
-                      <div class="nome my-5">pippo</div>
-                    </div>
-                  </div>
+      </nav>
+    </header>
+    <!--app header-->
+    <div class="wrapper">
+      <div class="sidebar bg-dark min-vh-100">
+        
+      </div>
+      <!--sidebar-->
+      <main>
+        <div class="banner d-flex"></div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-lg-8">
+              <div class="card">
+                <div class="card-header">
+                  lorem.
                 </div>
-                <div class="vertical_box_contenitor_right col-4">
-                  <!---------------vertical_box_contenitor col-4------->
-                  <div class="row h-100">
-                    <div class="top_box_right">top_box_right</div>
-                    <!---------------top_box_right------>
-                    <div class="bottom_box_right">m</div>
-                    <!--------------bottom_box_left------>
-                  </div>
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                  explicabo minima aspernatur nulla voluptatum consectetur magni
+                  voluptates ad velit, aperiam temporibus ex doloribus libero
+                  dicta molestiae mollitia laborum sunt tempora.
                 </div>
               </div>
+              <div class="card">
+                <div class="card-header">
+                  FAQS
+                </div>
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                  explicabo minima aspernatur nulla voluptatum consectetur magni
+                  voluptates ad velit, aperiam temporibus ex doloribus libero
+                  dicta molestiae mollitia laborum sunt tempora.
+                </div>
+              </div>
+              <!--horizontal card-->
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="card">
+                <div class="card-header">
+                  FAQS
+                </div>
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                  explicabo minima aspernatur nulla voluptatum consectetur magni
+                  voluptates ad velit, aperiam temporibus ex doloribus libero
+                  dicta molestiae mollitia laborum sunt tempora.
+                </div>
+              </div>
+              <!--vertical card-->
+              <div class="card">
+                <div class="card-header">
+                  FAQS
+                </div>
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                  explicabo minima aspernatur nulla voluptatum consectetur magni
+                  voluptates ad velit, aperiam temporibus ex doloribus libero
+                  dicta molestiae mollitia laborum sunt tempora.
+                </div>
+              </div>
+              <!--vertical card-->
             </div>
           </div>
         </div>
       </main>
-      <!-- MAIN -->
     </div>
 
     <!--Script Bootstrap bundle-->

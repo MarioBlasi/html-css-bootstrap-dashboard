@@ -6,6 +6,7 @@
   --mar-white: white;
   --mar-search: rgb(236, 236, 236);
 }
+/*-----------color------*/
 
 .bg_mar_nav {
   background-color: var(--mar-nav);
@@ -25,86 +26,39 @@
 .bg_mar_search {
   background-color: var(--mar-grey);
 }
-/*--------------------------------- color -----------------------------*/
-.over {
-  overflow: hidden;
-}
-.form-control {
-  background-color: var(--mar-search);
-  border: none;
-}
-.container {
-  width: 20%;
-}
-.fa-bell {
-  color: var(--mar-bell);
-}
-/*---------------------------------header -----------------------------*/
-ul {
-  list-style: none;
-}
-.icon_bar {
-}
-li:hover {
-  background-color: rgba(255, 255, 255, 0.541);
-}
-span {
-  font-size: small;
-}
-.navbar_bottom {
-  margin-top: 42rem;
-}
-.navbar_vertical {
-  background-color: var(--mar-sidebar);
-  background-image: url(/img/sidebar-bg.png);
-}
-/*------------------------------navbar_vertical --------------------------*/
-.big_vertical_box {
-  border: 3px solid royalblue;
-}
-/*----------big_vertical_box------INVISIBILE  come base---------------------*/
-.horizonatal_bar {
-  background-color: rgb(10, 211, 20);
-  height: 10%;
-}
-/*-----------horizonatal_bar-------------------*/
-.bigbox_contenitor {
-  border: 6px solid rgb(222, 225, 65);
-  height: 90%;
-}
-/*------------bigbox_contenitor---INVISIBILE  come base generale------------------*/
-.vertical_box_contenitor_left {
-  border: 6px solid rgb(8, 46, 214);
-}
-/*------vertical_box_contenitor---INVISIBILE  come base---rettangolare verticale-------*/
-/*.g {
-  background-color: white;
-  border: 3px solid rgb(214, 8, 197);
-}*/
+/*---------bd-----*/
 
-.top_box_left {
-  background-color: rgba(204, 118, 118, 0.349);
-  height: 60%;
+.debug .wrapper {
+  background-color: rgba(168, 46, 192, 0.562);
+}
+.debug .banner {
+  height: 150px;
+}
+.debug[class^="col-"] {
+  height: 300px;
+  border: 1px dashed;
 }
 
-.bottom_box_left {
-  background-color: rgb(220, 240, 163);
-  height: 40%;
+#app_header {
+  height: 60px;
 }
-.nome {
-  border: 1px solid red;
+.wrapper {
+  display: flex;
+  height: calc(100vh -70px);
 }
-/*---------end zone LEFT SIDE top and bottom----------------*/
+.sidebar {
+  width: 5rem;
+}
+main {
+  width: calc(100%-5rem);
+  overflow-y: auto;
+}
+.banner {
+  background-color: aqua;
+}
 
-.vertical_box_contenitor_right {
-  border: 6px solid rgb(8, 156, 214);
+@media screen and (min-width: 992px) {
+  .sidebar {
+    width: 10rem;
+  }
 }
-.top_box_right {
-  background-color: rgb(148, 106, 106);
-  height: 20%;
-}
-.bottom_box_right {
-  background-color: rgb(180, 135, 112);
-  height: 80%;
-}
-/*---------end zone RIGHT SIDE top and bottom----------------*/
