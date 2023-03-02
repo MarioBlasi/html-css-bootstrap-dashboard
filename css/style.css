@@ -27,7 +27,6 @@
   background-color: var(--mar-grey);
 }
 /*---------bd-----*/
-
 .debug .wrapper {
   background-color: rgba(168, 46, 192, 0.562);
 }
@@ -38,16 +37,41 @@
   height: 300px;
   border: 1px dashed;
 }
-
+/*--------debug-----*/
+.fa-bell {
+  color: var(--mar-bell);
+}
 #app_header {
   height: 60px;
 }
+/*-------header--------------*/
+b {
+  font-size: smaller;
+}
+ul {
+  list-style: none;
+}
+li:hover {
+  background-color: rgba(255, 255, 255, 0.541);
+}
+.sidebar {
+  background-image: url(/img/sidebar-bg.png);
+}
+.sidebar_bottom {
+  margin-top: 40rem;
+}
+/*-------sidebar----------------*/
+
 .wrapper {
   display: flex;
   height: calc(100vh -70px);
 }
 .sidebar {
-  width: 5rem;
+  width: 8rem;
+}
+.icon_bar,
+.Admin {
+  margin-right: -2rem;
 }
 main {
   width: calc(100%-5rem);
@@ -59,6 +83,6 @@ main {
 
 @media screen and (min-width: 992px) {
   .sidebar {
-    width: 10rem;
+    width: 16rem;
   }
 }
