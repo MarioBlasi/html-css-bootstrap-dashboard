@@ -27,23 +27,17 @@
   background-color: var(--mar-grey);
 }
 /*---------bd-----*/
-.debug .wrapper {
-  background-color: var(--mar-white);
+.banner {
+  height: 140px;
 }
-.debug .banner {
-  height: 150px;
-}
-.debug[class^="col-"] {
+[class^="col-"] {
   height: 300px;
-  border: 1px dashed;
 }
 /*--------debug-----*/
-
 main {
   width: calc(100%-5rem);
-  overflow-y: auto;
+  overflow-y: hidden;
 }
-
 .wrapper {
   display: flex;
   height: calc(100vh -70px);
@@ -54,10 +48,12 @@ main {
 }
 #app_header {
   height: 60px;
+  display: fixed;
 }
 .form-control {
   background-color: var(--mar-search);
 }
+
 /*-------header--------------*/
 
 b {
@@ -68,6 +64,10 @@ ul {
 }
 li:hover {
   background-color: rgba(255, 255, 255, 0.541);
+}
+li {
+  display: flex;
+  padding-top: 1rem;
 }
 .sidebar {
   background-image: url(/img/sidebar-bg.png);
@@ -81,6 +81,8 @@ li:hover {
 .icon_bar,
 .Admin {
   margin-right: -2rem;
+}
+.icon_bar {
 }
 /*-------sidebar----------------*/
 .text_left > span {
@@ -102,7 +104,16 @@ li:hover {
   height: 2rem;
   border-radius: 0.5rem;
 }
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10rem;
+}
+
 /*-------banner---------------*/
+
+/*------offcanvas-body--------------*/
 .card-body .btn {
   border-radius: 0.5rem;
   border: none;
