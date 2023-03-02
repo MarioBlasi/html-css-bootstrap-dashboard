@@ -36,7 +36,6 @@
 /*--------debug-----*/
 main {
   width: calc(100%-5rem);
-  overflow-y: hidden;
 }
 .wrapper {
   display: flex;
@@ -49,7 +48,6 @@ main {
 #app_header {
   height: 60px;
   display: fixed;
-  overflow-y: block;
 }
 .form-control {
   background-color: var(--mar-search);
