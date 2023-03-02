@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap demo</title>
+    <title>Bootstrap Dashboard</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -32,15 +32,14 @@
     <header id="app_header">
       <nav class="navbar bg_mar_nav">
         <div class="container-fluid bg_mar_white">
-          <img class="d-block d-sm-none " src="./img/mobile-logo.png " width="50px"alt=""><!--non si vede-->
-          <img class="d-block d-sm-block " src="./img/logo.svg" alt=""> <!-- si vede-->
-
+          <img class=" d-sm-block d-lg-none" src="./img/mobile-logo.png "width="50px"alt=""><!--immagine Piccola--> 
+          <img class="d-none d-lg-block d-sm-none " src="./img/logo.svg" alt=""> <!--immagine GRANDE-->
             <a class="navbar-brand bg_mar_white" href="#"></a>
             <form class="d-flex w-75" role="search">
               <!--<i class="fa-solid fa-magnifying-glass"></i>-->
-              <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+              <input class="form-control me-2 " type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
             </form>
-            <div class="icon_header left-align-baseline h-25 py-2 bg_mar_white ">
+            <div class="icon_header left-align-baseline h-25 py-2 bg_mar_white  ">
               <i class="fa-sharp fa-solid fa-bars fa-2 px-2"></i>
               <i class="fa-solid fa-circle-question fa-2 px-2"></i>
               <i class="fa-solid fa-ellipsis-vertical fa-2 px-2"></i>
@@ -52,19 +51,22 @@
     <!--app header-->
     <div class="wrapper bg_mar_white ">
       <div class="sidebar bg_mar_sidebar min-vh-100 text-light color pe-5 pt-1">
-        <div class="sidebar_top">
+        <div class="sidebar_top ">
           <div class="icon_bar py-3">
             <ul>
-              <li><i class="fa-solid fa-house fa-2 py-2 "></i><b>&nbsp Home</b></li>
-              <li><i class="fa-solid fa-desktop fa-2 py-2"></i><b>&nbsp Stats</b></li>
-              <li><i class="fa-solid fa-signal fa-2 py-2"></i><b>&nbsp Signals</b></li>
+              <li><i class="fa-solid fa-house fa-2  "></i>
+                <span class="d-none d-lg-block ms-2"><b>Home</b></span></li>
+              <li><i class="fa-solid fa-desktop fa-2 "></i>
+                <span class="d-none d-lg-block ms-2 "><b>Stats</b></span></li>
+              <li><i class="fa-solid fa-signal fa-2 "></i>
+                <span class="d-none d-lg-block ms-2"><b>Sisgnals</b></span></li>
             </ul>
           </div>
         </div>
         <div class="sidebar_bottom ">
           <div class="Admin">
             <ul>
-              <li><i class="fa-sharp fa-solid fa-gear fa-2"></i><b>&nbsp Admin</b></li>
+              <li><i class="fa-sharp fa-solid fa-gear fa-2"></i><span class="d-none d-lg-block ms-2 mb-2"><b>Admin</b></span></li></li>
             </ul>
           </div>
         </div>  
@@ -72,19 +74,19 @@
       <!--sidebar-->
       <main>
         <div class="banner bg_mar_banner d-flex">
-          <div class="container ">
+          <div class="container">
             <div class="row ">
               <div class="col ">
-                <div class="text_left text-light py-3 ">
-                  <span>Boolean</span>
-                  <button type="button" class="btn btn-sm text-light ">Piano Blaze</button>
+                <div class="text_left text-light  ">
+                  <spann><b>Boolean</b></spann>
+                  <span class="blaze_plan text-light ">Piano Blaze</span>
                 </div>
                 <div class="four_btn">
-                  <button type="button" class="btn btn-sm text-light ">Piano Blaze </button>
-                  <span>&raquo</span> 
-                  <button type="button" class="btn btn-sm text-light ">Piano Blaze</button>
-                  <button type="button" class="btn btn-sm text-light ">Piano Blaze</button>
-                  <button type="button" class="btn btn-sm text-light ">Piano Blaze</button>
+                  <span class=" text-light ">3 app </span>
+                  <b class="freccia fs-4 text-light "> &raquo</b>
+                  <span class=" text-light ">Boolean mobile app</span>
+                  <span class=" text-light ">Boolean web app</span>
+                  <span class=" text-light ">Boolean blog app</span>
                 </div>
               </div>
               <div class="col py-3 ps-5 text-light">
