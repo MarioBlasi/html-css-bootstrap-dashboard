@@ -107,7 +107,19 @@ li:hover {
   border-radius: 0.5rem;
   border: none;
   background-color: green;
-  font-size: 0.6rem;
+  height: 1.2rem;
+}
+.btn_yellow {
+  border-radius: 0.5rem;
+  border: none;
+  background-color: rgb(230, 230, 4);
+  height: 1.2rem;
+}
+.btn_red {
+  border-radius: 0.5rem;
+  border: none;
+  background-color: red;
+  height: 1.2rem;
 }
 .row img {
   width: 3%;
@@ -119,9 +131,17 @@ button {
 img {
   max-width: 100%;
 }
-
+td {
+  font-size: small;
+}
+th {
+  font-size: small;
+}
 .card-body > span {
   font-size: smaller;
+}
+.card-body > img {
+  width: 100%;
 }
 .list-group p {
   font-size: 13px;
