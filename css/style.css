@@ -49,6 +49,7 @@ main {
 #app_header {
   height: 60px;
   display: fixed;
+  overflow-y: block;
 }
 .form-control {
   background-color: var(--mar-search);
@@ -85,19 +86,27 @@ li {
 .icon_bar {
 }
 /*-------sidebar----------------*/
-.text_left > span {
-  font-size: 40px;
+.four_btn > span {
+  border-radius: 2rem;
+  background-color: rgba(34, 34, 95, 0.356);
+  height: 2rem;
+  width: 33rem;
+  line-height: 0.5rem;
+}
+.blaze_plan {
+  border-radius: 2rem;
+  background-color: rgba(34, 34, 95, 0.356);
+  height: 2rem;
+  width: 33rem;
+  line-height: 0.5rem;
+}
+.text_left b {
+  font-size: 35px;
 }
 .text_left {
   text-align: inherit;
 }
 
-.btn {
-  border-radius: 2rem;
-  background-color: rgba(34, 34, 95, 0.356);
-  height: 1.5rem;
-  line-height: 0.5rem;
-}
 .btn_Nuovo_studente {
   border: 2px solid white;
   background-color: transparent;
