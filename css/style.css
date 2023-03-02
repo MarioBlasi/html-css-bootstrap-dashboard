@@ -28,7 +28,7 @@
 }
 /*---------bd-----*/
 .debug .wrapper {
-  background-color: rgba(168, 46, 192, 0.562);
+  background-color: var(--mar-white);
 }
 .debug .banner {
   height: 150px;
@@ -38,6 +38,7 @@
   border: 1px dashed;
 }
 /*--------debug-----*/
+
 main {
   width: calc(100%-5rem);
   overflow-y: auto;
@@ -102,6 +103,19 @@ li:hover {
   border-radius: 0.5rem;
 }
 /*-------banner---------------*/
+img {
+  max-width: 100%;
+}
+
+.card-body > span {
+  font-size: smaller;
+}
+.list-group p {
+  font-size: 13px;
+  color: rgb(17, 0, 255);
+}
+/*-------card container--------------*/
+
 @media screen and (min-width: 992px) {
   .sidebar {
     width: 16rem;
