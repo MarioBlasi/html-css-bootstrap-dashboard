@@ -54,7 +54,11 @@ main {
 #app_header {
   height: 60px;
 }
+.form-control {
+  background-color: var(--mar-search);
+}
 /*-------header--------------*/
+
 b {
   font-size: smaller;
 }
@@ -81,12 +85,21 @@ li:hover {
 .text_left > span {
   font-size: 40px;
 }
+.text_left {
+  text-align: inherit;
+}
 
 .btn {
   border-radius: 2rem;
   background-color: rgba(34, 34, 95, 0.356);
   height: 1.5rem;
   line-height: 0.5rem;
+}
+.btn_Nuovo_studente {
+  border: 2px solid white;
+  background-color: transparent;
+  height: 2rem;
+  border-radius: 0.5rem;
 }
 /*-------banner---------------*/
 @media screen and (min-width: 992px) {

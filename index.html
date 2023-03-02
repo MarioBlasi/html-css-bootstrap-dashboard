@@ -31,12 +31,13 @@
   <body class="debug">
     <header id="app_header">
       <nav class="navbar bg_mar_nav">
-        <div class="container-fluid">
+        <div class="container-fluid bg_mar_white">
           <img class="d-block d-sm-none w-25" src="./img/mobile-logo.png" alt="">
           <img class="d-block d-sm-block" src="./img/logo.svg" alt="">
             <a class="navbar-brand bg_mar_white" href="#"></a>
             <form class="d-flex w-75" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <!--<i class="fa-solid fa-magnifying-glass"></i>-->
+              <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
             </form>
             <div class="icon_header left-align-baseline h-25 py-2 bg_mar_white ">
               <i class="fa-sharp fa-solid fa-bars fa-2 px-2"></i>
@@ -71,10 +72,10 @@
       <!--sidebar-->
       <main>
         <div class="banner bg_mar_banner d-flex">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <div class="text_left text-light">
+          <div class="container ">
+            <div class="row ">
+              <div class="col ">
+                <div class="text_left text-light py-3 ">
                   <span>Boolean</span>
                   <button type="button" class="btn btn-sm text-light ">Piano Blaze</button>
                 </div>
@@ -86,11 +87,21 @@
                   <button type="button" class="btn btn-sm text-light ">Piano Blaze</button>
                 </div>
               </div>
-              <div class="col">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ipsam iusto quod adipisci aut fuga natus, nihil molestiae atque. Eligendi ducimus veritatis provident voluptates voluptas distinctio, harum nostrum ad illo.
+              <div class="col py-3 ps-5 text-light">
+                <p>Studenti on line negli ultimi 30 minuti</p>
+                <h1>125</h1>
               </div>
-              <div class="col">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione consequuntur repellendus quod, vero iure itaque in perspiciatis neque hic repudiandae ex quaerat accusamus tempore odio illum possimus. Dolorum, similique quia!
+              <div class="col text-light text-center py-3">
+                <span>Nuovo Studente</span>
+                <button class="btn_Nuovo_studente text-light " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> + </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                  <div class="offcanvas-header">
+                    <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                  </div>
+                </div>
               </div>
             </div>
           </div>
