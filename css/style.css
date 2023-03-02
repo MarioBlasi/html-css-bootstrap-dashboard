@@ -76,7 +76,7 @@ li:hover {
   margin-top: 40rem;
 }
 .sidebar {
-  width: 8rem;
+  width: 5rem;
 }
 .icon_bar,
 .Admin {
@@ -103,6 +103,19 @@ li:hover {
   border-radius: 0.5rem;
 }
 /*-------banner---------------*/
+.card-body .btn {
+  border-radius: 0.5rem;
+  border: none;
+  background-color: green;
+  font-size: 0.6rem;
+}
+.row img {
+  width: 3%;
+}
+.row,
+button {
+  font-size: 90%;
+}
 img {
   max-width: 100%;
 }
@@ -114,11 +127,15 @@ img {
   font-size: 13px;
   color: rgb(17, 0, 255);
 }
+.fa-square-pen,
+.fa-trash {
+  color: grey;
+}
 /*-------card container--------------*/
 
 @media screen and (min-width: 992px) {
   .sidebar {
-    width: 16rem;
+    width: 10rem;
   }
 }
 /*-------@media screen and (min-width: 992px)------------*/
