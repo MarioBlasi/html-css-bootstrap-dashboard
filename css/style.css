@@ -121,13 +121,9 @@ li {
 }
 
 /*-------banner---------------*/
-.offcanvas-bodyl {
-  float: left;
+.offcanvas-body {
+  margin-top: -2rem;
 }
-.offcanvas-bodyr {
-  float: right;
-}
-
 /*------offcanvas-body--------------*/
 .green_btn {
   border-radius: 0.3rem;

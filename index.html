@@ -100,16 +100,16 @@
                   <button class="btn_Nuovo_studente text-light " type="button" data-bs-toggle="offcanvas"data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> + </button> 
 
                   <!-------start offcanvas-->
-                  <div class="offcanvas offcanvas-end w-50 " tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                  <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                     <div class="offcanvas-header  ">
                       <h5 class="offcanvas-title text-dark" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
                       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    <!--2 col-->
-                    <div class="container">
+                    <!--col-->
+                    <div class="container ">
                       <div class="row">
                         <div class="col">
-                          <div class="offcanvas-body w-100 ">
+                          <div class="offcanvas-body w-100">
                             <form>
                               <div class="mb-3 text-dark text-start ">
                                 <label for="exampleInputEmail1 " class="form-label"> <h6>Nome</h6></label>
@@ -129,7 +129,7 @@
                             </form>
                           </div>
                         </div>
-                        
+                        <!---END -section LEFT  -->
                         <div class="col">
                           <div class="offcanvas-body w-100 ">
                             <form>
@@ -151,6 +151,7 @@
                             </form>
                           </div>
                         </div>
+                        <!---END -section RIGHT  -->
                         <div class="container">
                           <div class="row">
                             <div class="col">
@@ -166,6 +167,60 @@
                             </div>
                           </div>
                         </div><!---------body long COL indirizzo------>
+                        <div class="offcanvas-body w-100 ">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col">
+                                <form>
+                                  <div class="mb-3 text-dark text-start ">
+                                    <label for="exampleInputEmail1 " class="form-label"> <h6>Città</h6></label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text"></div>
+                                  </div>
+                                </form>
+                              </div>
+                              <div class="col">
+                                <form>
+                                  <div class="mb-3 text-dark text-start ">
+                                    <label for="exampleInputEmail1 " class="form-label"> <h6>Stato</h6></label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text"></div>
+                                  </div>
+                                </form>
+                              </div>
+                              <div class="col">
+                                <form>
+                                  <div class="mb-3 text-dark text-start ">
+                                    <label for="exampleInputEmail1 " class="form-label"> <h6>CAP</h6></label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text"></div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>  
+                          </div> <!-----END -body col6 col4 col2 --->
+                          <div class="col">
+                            <div class="offcanvas-body w-100 ">
+                              <form>
+                                <div class="mb-3 text-dark text-start ">
+                                  <label for="exampleInputEmail1 " class="form-label"> <h6>Foto</h6></label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                  <div id="emailHelp" class="form-text"></div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div> <!---END -section FOTO  -->
+                        <div class="box_btn_seleziona pb-5">
+                          <div class="bn text-start text-dark ms-4">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                            <label class="form-check-label" for="firstCheckbox"><p>Seleziona per proseguire</p></label>
+                          </div>
+                          <div class="btn_new_student text-start ms-4">
+                            <button type="button" class="btn btn-primary">Salva</button>
+                            <button type="button" class="btn btn-warning">Svuota</button>
+                          </div>
+                        </div>
                       </div>  
                     </div>
                   </div>  
