@@ -30,9 +30,6 @@
 .banner {
   height: 140px;
 }
-[class^="col-"] {
-  height: 300px;
-}
 /*--------debug-----*/
 main {
   width: calc(100%-5rem);
@@ -49,13 +46,10 @@ main {
   height: 60px;
   display: fixed;
 }
-
 .form-control {
   background-color: var(--mar-search);
 }
-
 /*-------header--------------*/
-
 b {
   font-size: smaller;
 }
@@ -119,7 +113,6 @@ li {
   justify-content: space-between;
   margin-right: 10rem;
 }
-
 /*-------banner---------------*/
 .offcanvas-body {
   margin-top: -2rem;
@@ -192,7 +185,6 @@ th {
   color: grey;
 }
 /*-------card container--------------*/
-
 @media screen and (min-width: 992px) {
   .sidebar {
     width: 10rem;
