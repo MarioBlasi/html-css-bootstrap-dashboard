@@ -49,6 +49,7 @@ main {
   height: 60px;
   display: fixed;
 }
+
 .form-control {
   background-color: var(--mar-search);
 }
@@ -120,7 +121,12 @@ li {
 }
 
 /*-------banner---------------*/
-
+.offcanvas-bodyl {
+  float: left;
+}
+.offcanvas-bodyr {
+  float: right;
+}
 /*------offcanvas-body--------------*/
 .green_btn {
   border-radius: 0.3rem;

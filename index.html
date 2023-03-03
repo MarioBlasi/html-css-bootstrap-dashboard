@@ -29,280 +29,307 @@
   </head>
 
   <body>
-    <header id="app_header">
-      <nav class="navbar bg_mar_nav">
-        <div class="container-fluid bg_mar_white">
-          <img class=" d-sm-block d-lg-none" src="./img/mobile-logo.png "width="50px"alt=""><!--immagine Piccola--> 
-          <img class="d-none d-lg-block d-sm-none " src="./img/logo.svg" alt=""> <!--immagine GRANDE-->
-            <a class="navbar-brand bg_mar_white" href="#"></a>
-            <form class="d-flex w-75" role="search">
-              <!--<i class="fa-solid fa-magnifying-glass"></i>-->
-              <input class="form-control me-2 " type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
-            </form>
-            <div class="icon_header left-align-baseline h-25 py-2 bg_mar_white  ">
-              <i class="fa-sharp fa-solid fa-bars fa-2 px-2"></i>
-              <i class="fa-solid fa-circle-question fa-2 px-2"></i>
-              <i class="fa-solid fa-ellipsis-vertical fa-2 px-2"></i>
-              <i class="fa-solid fa-bell px-2 "></i>
-            <div>
-        </div>
-      </nav>
-    </header>
-    <!--app header-->
-    <div class="wrapper bg_mar_white ">
-      <div class="sidebar bg_mar_sidebar min-vh-100 text-light color pe-5 pt-1">
-        <div class="sidebar_top ">
-          <div class="icon_bar py-3">
-            <ul>
-              <li><i class="fa-solid fa-house fa-2  "></i>
-                <span class="d-none d-lg-block ms-2"><b>Home</b></span></li>
-              <li><i class="fa-solid fa-desktop fa-2 "></i>
-                <span class="d-none d-lg-block ms-2 "><b>Stats</b></span></li>
-              <li><i class="fa-solid fa-signal fa-2 "></i>
-                <span class="d-none d-lg-block ms-2"><b>Sisgnals</b></span></li>
-            </ul>
+    <div class="cornice">
+      <header id="app_header">
+        <nav class="navbar bg_mar_nav ">
+          <div class="container-fluid bg_mar_white">
+            <img class=" d-sm-block d-lg-none" src="./img/mobile-logo.png "width="50px"alt=""><!--immagine Piccola--> 
+            <img class="d-none d-lg-block d-sm-none " src="./img/logo.svg" alt=""> <!--immagine GRANDE-->
+              <a class="navbar-brand bg_mar_white" href="#"></a>
+              <form class="d-flex w-75" role="search">
+                <!--<i class="fa-solid fa-magnifying-glass"></i>-->
+                <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+              </form>
+              <div class="icon_header left-align-baseline h-25 py-2 bg_mar_white  ">
+                <i class="fa-sharp fa-solid fa-bars fa-2 px-2"></i>
+                <i class="fa-solid fa-circle-question fa-2 px-2"></i>
+                <i class="fa-solid fa-ellipsis-vertical fa-2 px-2"></i>
+                <i class="fa-solid fa-bell px-2 "></i>
+              <div>
           </div>
-        </div>
-        <div class="sidebar_bottom ">
-          <div class="Admin">
-            <ul>
-              <li><i class="fa-sharp fa-solid fa-gear fa-2"></i><span class="d-none d-lg-block ms-2 mb-2"><b>Admin</b></span></li></li>
-            </ul>
+        </nav>
+      </header>
+      <!--app header-->
+      <div class="wrapper bg_mar_white ">
+        <div class="sidebar bg_mar_sidebar min-vh-100 text-light color pe-5 pt-1">
+          <div class="sidebar_top ">
+            <div class="icon_bar py-3">
+              <ul>
+                <li><i class="fa-solid fa-house fa-2  "></i>
+                  <span class="d-none d-lg-block ms-2"><b>Home</b></span></li>
+                <li><i class="fa-solid fa-desktop fa-2 "></i>
+                  <span class="d-none d-lg-block ms-2 "><b>Stats</b></span></li>
+                <li><i class="fa-solid fa-signal fa-2 "></i>
+                  <span class="d-none d-lg-block ms-2"><b>Sisgnals</b></span></li>
+              </ul>
+            </div>
           </div>
-        </div>  
+          <div class="sidebar_bottom ">
+            <div class="Admin">
+              <ul>
+                <li><i class="fa-sharp fa-solid fa-gear fa-2"></i><span class="d-none d-lg-block ms-2 mb-2"><b>Admin</b></span></li></li>
+              </ul>
+            </div>
+          </div>  
+        </div>
+        <!--sidebar-->
+        <main>
+          <div class="banner bg_mar_banner d-flex">
+            <div class="container">
+              <div class="row ">
+                <div class="col ">
+                  <div class="text_left text-light  ">
+                    <spann><b>Boolean</b></spann>
+                    <span class="blaze_plan text-light ">Piano Blaze</span>
+                  </div>
+                  <div class="four_btn">
+                    <span class=" text-light ">3 app </span>
+                    <b class="freccia fs-4 text-light "> &raquo</b>
+                    <span class=" text-light ">Boolean mobile app</span>
+                    <span class=" text-light ">Boolean web app</span>
+                    <span class=" text-light ">Boolean blog app</span>
+                  </div>
+                </div>
+                <div class="col py-3 ps-5 text-light">
+                  <p>Studenti on line negli ultimi 30 minuti</p>
+                  <h1>125</h1>
+                </div>
+                <!------vertival-----section banner-------->
+                <div class="col text-light text-center py-3">
+                  <span>Nuovo Studente</span>
+                  <button class="btn_Nuovo_studente text-light " type="button" data-bs-toggle="offcanvas"data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> + </button> 
+
+                  <!-------start offcanvas-->
+                  <div class="offcanvas offcanvas-end w-50 " tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header  ">
+                      <h5 class="offcanvas-title text-dark" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <!--2 col-->
+                    <div class="container">
+                      <div class="row">
+                        <div class="col">
+                          <div class="offcanvas-body w-100 ">
+                            <form>
+                              <div class="mb-3 text-dark text-start ">
+                                <label for="exampleInputEmail1 " class="form-label"> <b>Nome</b></label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text"></div>
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                        <!---------body LEFT offcanvas------>
+                        <div class="col">
+                          <div class="offcanvas-body w-100 ">
+                            <form>
+                              <div class="mb-3 text-dark text-start ">
+                                <label for="exampleInputEmail1 " class="form-label"> <b>Nome</b></label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text"></div>
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--banner-->
+          <div class="middlecont container-fluid">
+            <div class="row my-4">
+              <div class="col-12 col-lg-8">
+                <div class="card">
+                  <div class="card-header ">
+                    <h3>Prossime classi</h3>
+                  </div>
+                  <div class="card-body ">
+                    <table class="table table-hover ">
+                      <thead>
+                        <tr>
+                          <th scope="col">Nome</th>
+                          <th scope="col">Data&nbsp&nbspinizio</th>
+                          <th scope="col">ROI</th>
+                          <th scope="col">Stato</th>
+                          <th scope="col">Azioni</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row"> <img src="./img/class-avatar.jpg " alt=""> Classe 75</th>
+                          <td>15 Feb 2021</td>
+                          <td>20%</td>
+                          <td><span class="green_btn text-light">done</span></td>
+                          <td><i class="fa-solid fa-square-pen fa-lg ">&nbsp</i><i class="fa-solid fa-trash fa-lg"></i></td>
+                        </tr>
+                        <!--classe 75-->
+                        <tr>
+                          <th scope="row"> <img src="./img/class-avatar.jpg " alt=""> Classe 76</th>
+                          <td>16 Feb 2021</td>
+                          <td>20%</td>
+                          <td><span class="green_btn text-light">done</span></td>
+                          <td><i class="fa-solid fa-square-pen fa-lg ">&nbsp</i><i class="fa-solid fa-trash fa-lg"></i></td>
+                        </tr>
+                        <!--classe 76-->
+                        <tr>
+                          <th scope="row"> <img src="./img/class-avatar.jpg " alt=""> Classe 77</th>
+                          <td>17 Feb 2021</td>
+                          <td>20%</td>
+                          <td><span class="yellow_btn text-light">process</span></td>
+                          <td><i class="fa-solid fa-square-pen fa-lg ">&nbsp</i><i class="fa-solid fa-trash fa-lg"></i></td>
+                        </tr>
+                        <!--classe 77-->
+                        <tr>
+                          <th scope="row"> <img src="./img/class-avatar.jpg " alt=""> Classe 78</th>
+                          <td>18 Feb 2021</td>
+                          <td>20%</td>
+                          <td><span class="green_btn text-light">done</span></td>
+                          <td><i class="fa-solid fa-square-pen fa-lg ">&nbsp</i><i class="fa-solid fa-trash fa-lg"></i></td>
+                        </tr>
+                        <!--classe 78-->
+                        <tr>
+                          <th scope="row"> <img src="./img/class-avatar.jpg " alt=""> Classe 79</th>
+                          <td>19 Feb 2021</td>
+                          <td>20%</td>
+                          <td><span class="red_btn text-light">failed</span></td>
+                          <td><i class="fa-solid fa-square-pen fa-lg ">&nbsp</i><i class="fa-solid fa-trash fa-lg"></i></td>
+                        </tr>
+                        <!--classe 79-->
+                        <tr>
+                          <th scope="row"> <img src="./img/class-avatar.jpg " alt=""> Classe 78</th>
+                          <td>18 Feb 2021</td>
+                          <td>20%</td>
+                          <td><span class="green_btn text-light">done</span></td>
+                          <td><i class="fa-solid fa-square-pen fa-lg ">&nbsp</i><i class="fa-solid fa-trash fa-lg"></i></td>
+                        </tr>
+                        <!--classe 80-->
+                        <tr>
+                          <th scope="row"> <img src="./img/class-avatar.jpg " alt=""> Classe 79</th>
+                          <td>19 Feb 2021</td>
+                          <td>20%</td>
+                          <td><span class="red_btn text-light">failed</span></td>
+                          <td><i class="fa-solid fa-square-pen fa-lg ">&nbsp</i><i class="fa-solid fa-trash fa-lg"></i></td>
+                        </tr>
+                        <!--classe 81-->
+                        <tr>
+                          <th scope="row"> <img src="./img/class-avatar.jpg " alt=""> Classe 78</th>
+                          <td>18 Feb 2021</td>
+                          <td>20%</td>
+                          <td><span class="green_btn text-light">done</span></td>
+                          <td><i class="fa-solid fa-square-pen fa-lg ">&nbsp</i><i class="fa-solid fa-trash fa-lg"></i></td>
+                        </tr>
+                        <!--classe 82-->
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div class="boxcard card my-4">
+                  <div class="card-header">
+                    <h3>F.A.Q</h3>
+                  </div>
+                  <div class="card-body">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <b>Come aggiungere nuovo studente</b>
+                          </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <b>Come posso accedere alle informazioni del mio account</b>
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            <b>Posso usare questa dashboard mobile?</b>
+                          </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--horizontal card-->
+              </div>
+              <div class="boxcard col-12 col-lg-4">
+                <div class="card">
+                  <div class="card-header">
+                    <h3>Todo</h3>
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                        <label class="form-check-label" for="firstCheckbox"><b>Kick off nuove classi</b></label>
+                      </li>
+                      <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                        <label class="form-check-label" for="secondCheckbox"><b>Lezione su Bootstrap 5 in classe #75</b></label>
+                      </li>
+                      <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                        <label class="form-check-label" for="thirdCheckbox"><b>Controllare user name github studenti</b></label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!--vertical card-->
+                <div class="card my-4">
+                  <div class="card-header">
+                  </div>
+                  <div class="card-body">
+                    <img src="./img/stats.jpeg" alt=""><span><h5>Utenti attivi</h5></span>
+                    <span>lista utenti attivi in piattaforma nell'ultimo mese</span>
+                    <p></p>
+                    <div class="list-group">
+                      <a href="#" class="list-group-item list-group-item-action">Gennaio:1200</a>
+                      <a href="#" class="list-group-item list-group-item-action">Febbraio:800</a>
+                      <a href="#" class="list-group-item list-group-item-action">Marzo:1500</a>
+                      <a href="#" class="list-group-item list-group-item-action text-primary ">
+                        <p><u>Visualizza reporto approfondito</u></p></a>
+                    </div>
+                  </div>
+                </div>
+                <!--vertical card-->
+              </div>
+            </div>
+          </div>
+          <!-------card container-->
+        </main>
       </div>
-      <!--sidebar-->
-      <main>
-        <div class="banner bg_mar_banner d-flex">
-          <div class="container">
-            <div class="row ">
-              <div class="col ">
-                <div class="text_left text-light  ">
-                  <spann><b>Boolean</b></spann>
-                  <span class="blaze_plan text-light ">Piano Blaze</span>
-                </div>
-                <div class="four_btn">
-                  <span class=" text-light ">3 app </span>
-                  <b class="freccia fs-4 text-light "> &raquo</b>
-                  <span class=" text-light ">Boolean mobile app</span>
-                  <span class=" text-light ">Boolean web app</span>
-                  <span class=" text-light ">Boolean blog app</span>
-                </div>
-              </div>
-              <div class="col py-3 ps-5 text-light">
-                <p>Studenti on line negli ultimi 30 minuti</p>
-                <h1>125</h1>
-              </div>
-              <!------vertival-----section banner-------->
-              <div class="col text-light text-center py-3">
-                <span>Nuovo Studente</span>
-                <button class="btn_Nuovo_studente text-light " type="button" data-bs-toggle="offcanvas"data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> + </button> 
-                 <!-------start offcanvas-->
-                 <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                   <div class="offcanvas-header">
-                     <h5 class="offcanvas-title text-dark" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
-                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                   </div>
-                   <div class="offcanvas-body w-50"><!---------body offcanvas------>
-                    <form>
-                      <div class="mb-3 text-dark text-start ">
-                        <label for="exampleInputEmail1 " class="form-label"> <b>Nome</b></label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text"></div>
-                      </div>
-                      <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                      </div>
-                      <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                      </div>
-                       <!--end left-->
-                    </form>
-                   </div>
-                </div>  
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--banner-->
-        <div class="container-fluid">
-          <div class="row my-4">
-            <div class="col-12 col-lg-8">
-              <div class="card">
-                <div class="card-header ">
-                  <h3>Prossime classi</h3>
-                </div>
-                <div class="card-body ">
-                  <table class="table table-hover ">
-                    <thead>
-                      <tr>
-                        <th scope="col">Nome</th>
-                        <th scope="col">Data&nbsp&nbspinizio</th>
-                        <th scope="col">ROI</th>
-                        <th scope="col">Stato</th>
-                        <th scope="col">Azioni</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row"> <img src="./img/class-avatar.jpg " alt=""> Classe 75</th>
-                        <td>15 Feb 2021</td>
-                        <td>20%</td>
-                        <td><span class="green_btn text-light">done</span></td>
-                        <td><i class="fa-solid fa-square-pen fa-lg ">&nbsp</i><i class="fa-solid fa-trash fa-lg"></i></td>
-                      </tr>
-                      <!--classe 75-->
-                      <tr>
-                        <th scope="row"> <img src="./img/class-avatar.jpg " alt=""> Classe 76</th>
-                        <td>16 Feb 2021</td>
-                        <td>20%</td>
-                        <td><span class="green_btn text-light">done</span></td>
-                        <td><i class="fa-solid fa-square-pen fa-lg ">&nbsp</i><i class="fa-solid fa-trash fa-lg"></i></td>
-                      </tr>
-                      <!--classe 76-->
-                      <tr>
-                        <th scope="row"> <img src="./img/class-avatar.jpg " alt=""> Classe 77</th>
-                        <td>17 Feb 2021</td>
-                        <td>20%</td>
-                        <td><span class="yellow_btn text-light">process</span></td>
-                        <td><i class="fa-solid fa-square-pen fa-lg ">&nbsp</i><i class="fa-solid fa-trash fa-lg"></i></td>
-                      </tr>
-                      <!--classe 77-->
-                      <tr>
-                        <th scope="row"> <img src="./img/class-avatar.jpg " alt=""> Classe 78</th>
-                        <td>18 Feb 2021</td>
-                        <td>20%</td>
-                        <td><span class="green_btn text-light">done</span></td>
-                        <td><i class="fa-solid fa-square-pen fa-lg ">&nbsp</i><i class="fa-solid fa-trash fa-lg"></i></td>
-                      </tr>
-                      <!--classe 78-->
-                      <tr>
-                        <th scope="row"> <img src="./img/class-avatar.jpg " alt=""> Classe 79</th>
-                        <td>19 Feb 2021</td>
-                        <td>20%</td>
-                        <td><span class="red_btn text-light">failed</span></td>
-                        <td><i class="fa-solid fa-square-pen fa-lg ">&nbsp</i><i class="fa-solid fa-trash fa-lg"></i></td>
-                      </tr>
-                      <!--classe 79-->
-                      <tr>
-                        <th scope="row"> <img src="./img/class-avatar.jpg " alt=""> Classe 78</th>
-                        <td>18 Feb 2021</td>
-                        <td>20%</td>
-                        <td><span class="green_btn text-light">done</span></td>
-                        <td><i class="fa-solid fa-square-pen fa-lg ">&nbsp</i><i class="fa-solid fa-trash fa-lg"></i></td>
-                      </tr>
-                      <!--classe 80-->
-                      <tr>
-                        <th scope="row"> <img src="./img/class-avatar.jpg " alt=""> Classe 79</th>
-                        <td>19 Feb 2021</td>
-                        <td>20%</td>
-                        <td><span class="red_btn text-light">failed</span></td>
-                        <td><i class="fa-solid fa-square-pen fa-lg ">&nbsp</i><i class="fa-solid fa-trash fa-lg"></i></td>
-                      </tr>
-                      <!--classe 81-->
-                      <tr>
-                        <th scope="row"> <img src="./img/class-avatar.jpg " alt=""> Classe 78</th>
-                        <td>18 Feb 2021</td>
-                        <td>20%</td>
-                        <td><span class="green_btn text-light">done</span></td>
-                        <td><i class="fa-solid fa-square-pen fa-lg ">&nbsp</i><i class="fa-solid fa-trash fa-lg"></i></td>
-                      </tr>
-                      <!--classe 82-->
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-              <div class="card my-4">
-                <div class="card-header">
-                  <h3>F.A.Q</h3>
-                </div>
-                <div class="card-body">
-                  <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                          <b>Come aggiungere nuovo studente</b>
-                        </button>
-                      </h2>
-                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                          <b>Come posso accedere alle informazioni del mio account</b>
-                        </button>
-                      </h2>
-                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                          <b>Posso usare questa dashboard mobile?</b>
-                        </button>
-                      </h2>
-                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!--horizontal card-->
-            </div>
-            <div class="col-12 col-lg-4">
-              <div class="card">
-                <div class="card-header">
-                  <h3>Todo</h3>
-                </div>
-                <div class="card-body">
-                  <ul class="list-group">
-                    <li class="list-group-item">
-                      <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
-                      <label class="form-check-label" for="firstCheckbox"><b>Kick off nuove classi</b></label>
-                    </li>
-                    <li class="list-group-item">
-                      <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
-                      <label class="form-check-label" for="secondCheckbox"><b>Lezione su Bootstrap 5 in classe #75</b></label>
-                    </li>
-                    <li class="list-group-item">
-                      <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
-                      <label class="form-check-label" for="thirdCheckbox"><b>Controllare user name github studenti</b></label>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <!--vertical card-->
-              <div class="card my-4">
-                <div class="card-header">
-                </div>
-                <div class="card-body">
-                  <img src="./img/stats.jpeg" alt=""><span><h5>Utenti attivi</h5></span>
-                  <span>lista utenti attivi in piattaforma nell'ultimo mese</span>
-                  <p></p>
-                  <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action">Gennaio:1200</a>
-                    <a href="#" class="list-group-item list-group-item-action">Febbraio:800</a>
-                    <a href="#" class="list-group-item list-group-item-action">Marzo:1500</a>
-                    <a href="#" class="list-group-item list-group-item-action text-primary ">
-                      <p><u>Visualizza reporto approfondito</u></p></a>
-                  </div>
-
-                </div>
-              </div>
-              <!--vertical card-->
-            </div>
-          </div>
-        </div>
-        <!-------card container-->
-      </main>
-    </div>
-
+    </div>  
     <!--Script Bootstrap bundle-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
